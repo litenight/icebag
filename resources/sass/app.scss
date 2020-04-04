@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@import '~flatpickr/dist/themes/light.css';
+@import 'bootstrap/bootstrap';
+@import 'custom';
+
+@tailwind utilities;
+

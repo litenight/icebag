@@ -1,0 +1,57 @@
+* {
+    outline: none !important;
+}
+
+a {
+    @apply .text-indigo-500;
+}
+
+a:hover,
+a:focus {
+    @apply .text-indigo-400;
+}
+
+.form-checkbox,
+.form-radio {
+    @apply .cursor-pointer;
+    @apply .bg-gray-200;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    @apply .rounded-lg;
+    @apply .bg-gray-200;
+    @apply .border-gray-200;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    box-shadow: 0 0 0 3px rgba(87, 90, 236, 0.5);
+    border-color: #575AEC;
+}
+
+.btn {
+    @apply .px-4;
+    @apply .py-2;
+    @apply .text-center;
+    @apply .rounded-lg;
+    @apply .bg-indigo-500;
+    @apply .text-white;
+    @apply .font-medium;
+    @apply .whitespace-no-wrap;
+}
+
+.btn:hover {
+    @apply .bg-indigo-400;
+}
+
+.btn:focus {
+    @apply .outline-none;
+    @apply .bg-indigo-400;
+}
+
+.page-link {
+    @apply .text-gray-700;
+}
